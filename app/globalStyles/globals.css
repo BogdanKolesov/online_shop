@@ -1,0 +1,28 @@
+body {
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-weight: 400;
+  background-color: #1d2533;
+  color: #e8e9ea;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.conainer {
+  max-width: 1535px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.btn-reset {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.overflow-hidden {
+  overflow-y: hidden;
+  padding-right: 8px;
+}
