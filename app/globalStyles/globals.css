@@ -1,3 +1,26 @@
+@font-face {
+  font-display: swap;
+  font-family: Roboto Regular;
+  src: url("../../public/fonts/roboto/Roboto-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Roboto Thin;
+  src: url("../../public/fonts/roboto/Roboto-Thin.ttf");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Roboto Black;
+  src: url("../../public/fonts/roboto/Roboto-Black.ttf");
+  font-style: normal;
+}
+
 body {
   /* font-family: 'Courier New', Courier, monospace; */
   font-weight: 400;
@@ -6,6 +29,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: Roboto Regular;
 }
 
 .conainer {
@@ -20,6 +44,14 @@ body {
   cursor: pointer;
   background-color: transparent;
   border: none;
+}
+.list-reset {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  list-style: none;
 }
 
 .overflow-hidden {
