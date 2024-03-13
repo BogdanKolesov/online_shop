@@ -1,5 +1,6 @@
 {
   "name": "online_shop",
+  "author": "Bogdan Kolesov",
   "version": "0.1.0",
   "private": true,
   "scripts": {
